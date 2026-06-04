@@ -1,0 +1,6 @@
+(library
+ (name birds_lib)
+ (public_name birds)
+ (modules vector bird environment simulation render)
+ (libraries graphics)
+ (flags (:standard -strict-sequence -strict-formats -short-paths)))
