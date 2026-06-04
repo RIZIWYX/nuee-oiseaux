@@ -1,0 +1,15 @@
+# Dune
+_build/
+*.install
+
+# OCaml compilé
+*.cmi
+*.cmo
+*.cmx
+*.o
+*.a
+*.cmxa
+
+# IDE
+.merlin
+.vscode/
